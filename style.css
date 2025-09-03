@@ -1,0 +1,49 @@
+* {
+  font: "Roboto";
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+
+.header-greetings-container{
+  color: white;
+  background-color: #1f2947;
+  display: flex;
+  flex-direction: column;
+}
+.header-container {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.header-container a{
+  color: white;
+}
+.home-logo{
+  font-size: 48px;
+  font-weight: 900;
+}
+.header-links-container{
+  display: flex;
+  align-items: stretch;
+}
+.header-link, .home-logo{
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+.greetings-container{
+  display: flex;
+  color: white;
+}
+.greeting-header{
+  color: white;
+}

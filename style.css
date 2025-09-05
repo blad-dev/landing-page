@@ -20,11 +20,12 @@ a {
   flex-direction: column;
   flex: 1 1;
 }
-.header-greetings-container{
-  color: white;
+.header-greetings-container {
+  color: #f9faf8;
   background-color: #1f2947;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
 }
 .header-container {
   display: flex;

@@ -128,3 +128,24 @@ a {
   justify-content: center;
   gap: 64px;
 }
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 4em 24%;
+  align-items: center;
+}
+.quote-text {
+  font-size: 36px;
+  text-align: justify;
+  color: #1f2937;
+  font-weight: 300;
+  margin: 0px;
+}
+.quote-author {
+  margin: 0px;
+  align-self: flex-end;
+  font-weight: 900;
+  font-size: 28px;
+}

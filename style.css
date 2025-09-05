@@ -20,6 +20,19 @@ a {
   flex-direction: column;
   flex: 1 1;
 }
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2947;
+  flex: 0 1 auto;
+}
+.footer-container p{
+  color: #f9faf8;
+  font-size: 28px;
+  font-weight: 500;
+
+}
 .header-greetings-container {
   color: #f9faf8;
   background-color: #1f2947;

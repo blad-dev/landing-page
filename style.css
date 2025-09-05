@@ -149,3 +149,37 @@ a {
   font-weight: 900;
   font-size: 28px;
 }
+.actioncall-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
+}
+.actioncall-container{
+  padding: 32px 64px;
+  background-color: #3882f6;
+  border-radius: 16px;
+  display: flex;
+  gap: 32px;
+  justify-content: space-around;
+}
+.actioncall-header, .actioncall-text{
+  color: white;
+  margin: 0px;
+}
+.actioncall-text-container{
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.actioncall-link{
+  font-size: 20px;
+  font-weight: 900;
+  align-self: center;
+  color: white;
+  padding: 0.4em 1.5em;
+  border-radius: 16px;
+  border: white solid 3px;
+}

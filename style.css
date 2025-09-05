@@ -69,7 +69,19 @@ a {
 .greetings-container{
   display: flex;
   color: white;
+  justify-content: center;
+  padding: 86px 24px;
+  gap: 64px;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
 }
 .greeting-header{
-  color: white;
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0px 0px;
+}
+.greeting-text {
+  color: #e5e7eb;
+  font-size: 18px;
 }

@@ -101,3 +101,30 @@ a {
   width: 500px;
   align-items: flex-start;
 }
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 16px;
+}
+.info-container h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+.image-with-description img {
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+.image-with-description p {
+  width: 200px;
+
+  color: #565656;
+  text-align: center;
+}
+.info-images {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}

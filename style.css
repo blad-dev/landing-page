@@ -62,6 +62,10 @@ a {
   display: flex;
   align-items: center;
 }
+.header-link {
+  color: #e5e7eb;
+  font-size: 18px;
+}
 .greetings-container{
   display: flex;
   color: white;

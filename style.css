@@ -8,6 +8,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  flex: 1 1 auto;
   margin: 0px;
 }
 a {

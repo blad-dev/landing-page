@@ -50,15 +50,17 @@ a {
 .header-container a{
   color: white;
 }
-.home-logo{
-  font-size: 48px;
+.home-logo {
+  font-size: 24px;
   font-weight: 900;
+  color: #f9faf8;
 }
-.header-links-container{
+.header-links-container {
   display: flex;
   align-items: stretch;
 }
-.header-link, .home-logo{
+.header-link,
+.home-logo {
   padding: 16px;
   display: flex;
   align-items: center;

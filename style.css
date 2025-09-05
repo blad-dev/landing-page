@@ -85,3 +85,19 @@ a {
   color: #e5e7eb;
   font-size: 18px;
 }
+
+.sign-up-link {
+  display: inline-block;
+  padding: 8px 24px;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  flex: 0 1 auto;
+  font-weight: 600;
+}
+.text-greeting {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: flex-start;
+}
